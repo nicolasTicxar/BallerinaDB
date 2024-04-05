@@ -26,7 +26,7 @@ configurable string DATABASE = ?;
 //create MYSQL client
 
 final mysql:Client dbClient = check new(
-    host=HOST, user=USER, password=PASSWORD, port=PORT, database="Company"
+    host=HOST, user=USER, password=PASSWORD, port=PORT, database=DATABASE
 );
 
 //CRUD
